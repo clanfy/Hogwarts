@@ -5,13 +5,11 @@ DROP TABLE Wizards IF EXISTS;
 CREATE TABLE wizards(
   id serial2 PRIMARY KEY,
   name VARCHAR(255)
-  DA BOOLEAN
 );
 
 CREATE TABLE wands (
   id serial4 PRIMARY KEY,
-  name VARCHAR(255),
-  wood_type VARCHAR(255)
+  type VARCHAR(255)
 );
 
 CREATE TABLE ownedwands (

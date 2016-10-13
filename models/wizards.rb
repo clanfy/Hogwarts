@@ -5,7 +5,6 @@ class Wizard
   def initialize(options)
     @id = options['id'].to_i
     @name = options['name']
-    @da = options['da']
   end
 
 
